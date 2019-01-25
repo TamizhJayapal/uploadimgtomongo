@@ -17,7 +17,7 @@ mongodb.MongoClient.connect(uri,  { useNewUrlParser: true } , (err, client)=>{
         assert.ifError(error);
       }).
       on('finish', function() {
-        console.log('done!');
+        console.log('done image upaloded as image.jpg!');
         process.exit(0);
       });
 })
